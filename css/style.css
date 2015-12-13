@@ -1,0 +1,169 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body{
+	min-height: 100%;
+}
+html {
+	height: 100%;
+}
+body {
+	background: #F1F1F1;
+	color:#C2C2C2;
+}
+form {
+	position: relative;
+	padding:0 10.5%;
+	height:160px;
+	margin:30px auto;
+}
+input[type="search"] {
+	font:700 50px Arial, sans-serif;
+	background:#F1F1F1;
+	border:none;
+	padding: 0;
+	max-width:80%;
+	height:100%;
+	color:#33CCCC;
+	-webkit-appearance: textfield;
+	box-sizing:border-box;
+}
+input[type="search"]:focus {
+	outline:none;
+}
+input[type="submit"] {
+	position: absolute;
+	width:80px;
+	height:80px;
+	text-indent: 100px;
+	overflow: hidden;
+	right:10%;
+	top:25%;
+	background:url(../img/magnifier.svg) no-repeat center center;
+	background-size:100%;
+	border:none;
+}
+input[type="submit"]:focus {
+	outline:none;
+}
+
+input::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+input:-moz-placeholder {
+	color: #c2c2c2;
+}
+.ba-content {
+	margin:0 auto;
+	padding:0 10.5%;
+	font-size: 0;
+}
+h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 800;
+	text-align: center;
+}
+a {
+	display:block;
+	cursor:pointer;
+	padding:10px;
+	border-radius:5px;
+}
+.ba-people, .ba-popular, .ba-recent {
+	display: inline-block;
+	font-size: 0px;
+	width: 33%;
+}
+.ba-content ul {
+	list-style: none;
+	padding-left: 0;
+}
+.ba-content a {
+	text-decoration: none;
+	color: #c2c2c2;
+	display: block;
+}
+.ba-content a:hover {
+	text-decoration: none;
+	color: #ec5a62;
+	background: rgba(118,117,128,0.1);
+	border-radius: 6px;
+}
+.ba-content li {
+	border: 1px solid #F1F1F1;
+	width: 95%;
+	border-radius: 10px;
+	margin-bottom: 2px;
+	background: rgba(118,117,128,0.05);
+}
+
+.ba-content img {
+	border-radius: 120px;
+	margin: 10px;
+}
+.ba-content span {
+	font-size: 14px;
+	position: relative;
+	bottom: 28px;
+	left: 10px;
+	display: inline-block;
+	width: 70%;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+/*.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}*/
