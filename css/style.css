@@ -2,9 +2,11 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font: 500 18px Arial, sans-serif;
 }
 html, body {
 	min-height: 100%;
+
 }
 html {
 	height: 100%;
@@ -13,14 +15,14 @@ body {
 	padding: 0 10%;
 	background: #F1F1F1;
 	color:#C2C2C2;
+
 }
 form {
 	position: relative;
-	padding:0;
-	height:160px;
-	margin:30px auto;
+	padding: 30px 0;
+	/* margin:30px auto; */
 }
-input[type="search"] {
+.ba-search input[type="search"] {
 	font:700 100px Arial, sans-serif;
 	background:#F1F1F1;
 	border:none;
@@ -31,10 +33,10 @@ input[type="search"] {
 	-webkit-appearance: textfield;
 	box-sizing:border-box;
 }
-input[type="search"]:focus {
+.ba-search input[type="search"]:focus {
 	outline:none;
 }
-input[type="submit"] {
+.ba-search button {
 	position: absolute;
 	width:80px;
 	height:80px;
@@ -46,7 +48,7 @@ input[type="submit"] {
 	background-size:100%;
 	border:none;
 }
-input[type="submit"]:focus {
+.ba-search button:focus {
 	outline:none;
 }
 
@@ -56,10 +58,7 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
 	color: #c2c2c2;
 }
-li {
-	display: list-item;
-	text-align: -webkit-match-parent;
-}
+
 .ba-content {
 	margin:0;
 	padding:0;
@@ -84,29 +83,29 @@ li {
 }
 
 .ba-people {
-	padding-right: 20px;
+	/* padding-right: 20px; */
 	display: inline-block;
 	font-size: 10px;
-	width: 33%;
+	width: 30%;
 }
 .ba-popular {
-	padding: 0 10px;
+	margin: 0 5%;
 	display: inline-block;
 	font-size: 10px;
-	width: 33%;
+	width: 30%;
 }
 .ba-recent {
-	padding-left: 20px;
+	/* padding-left: 20px; */
 	display: inline-block;
 	font-size: 10px;
-	width: 33%;
+	width: 30%;
 }
 .ba-content ul {
 	list-style: none;
 	padding-left: 0;
 }
 .ba-content a {
-	/*text-decoration: none;*/
+	text-decoration: none;
 	vertical-align: middle;
 	color: #c2c2c2;
 	display: block;
@@ -116,7 +115,6 @@ li {
 }
 .ba-content li {
 	border: 1px solid #F1F1F1;
-	width: 95%;
 	border-radius: 10px;
 	margin-bottom: 2px;
 	background: rgba(118,117,128,0.05);
@@ -128,10 +126,10 @@ li {
 	border-radius: 6px;
 }
 
-.ba-people img {
+.ba-people-list img {
 	display: inline-block;
 	vertical-align: middle;
-	border-radius: 120px;
+	/* border-radius: 50%; */
 	margin: 0 10px 0 0;
 }
 
@@ -142,7 +140,7 @@ li {
 	margin:0 10px 0 0;
 }
 .ba-content a img:hover {
-	width: 75px;
+	/* width: 75px; */
 }
 .ba-content h2 {
 	text-transform: uppercase;
@@ -150,6 +148,7 @@ li {
 	font-weight: 800;
 	padding: 10px 0;
 }
+
 
 
 /* Typography */
