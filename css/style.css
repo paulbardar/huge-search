@@ -114,16 +114,14 @@ input:-moz-placeholder {
 	border-radius:5px;
 }
 .ba-content li {
-	border: 1px solid #F1F1F1;
+	margin-bottom: 10px;
 	border-radius: 10px;
-	margin-bottom: 2px;
 	background: rgba(118,117,128,0.05);
 }
 .ba-content li:hover {
-	text-decoration: none;
 	background: rgba(118,117,128,0.1);
 	color: #ec5a62;
-	border-radius: 6px;
+	border-radius: 10px;
 }
 
 .ba-people-list img {
